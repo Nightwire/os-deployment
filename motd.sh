@@ -53,13 +53,13 @@ echo -e "${WHITE} Date: "`date`
 echo -e ""
 
 echo -e "${WHITE} Hostname:   ${HOSTNAME}"
-echo -e "${WHITE} CPU Model: ${CPUMOD}"
+echo -e "${WHITE} CPU: ${CPUMOD}"
 echo -e ""
-echo -e "${WHITE} Total Memory: ${MEMTOTAL}"
-echo -e "${WHITE} Free Memory: ${MEMFREE}"
+echo -e "${WHITE} ${MEMTOTAL}"
+echo -e "${WHITE} ${MEMFREE}"
 echo -e ""
-echo -e "${WHITE} Swap Total:    ${SWAPTOTAL}"
-echo -e "${WHITE} Swap Free:    ${SWAPFREE}"
+echo -e "${WHITE} ${SWAPTOTAL}"
+echo -e "${WHITE} ${SWAPFREE}"
 echo -e ""
 
 echo -e "${RED}******************************************************************************"
