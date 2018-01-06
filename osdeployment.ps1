@@ -20,3 +20,5 @@ if($localOS -eq "Ubuntu16.04.3LTS"){
 
     Invoke-WebRequest -Uri $url -OutFile $output
 }
+
+Send-MailMessage -From ([Environment]::MachineName + "@nightwire.de") -To "infrastructure-news@mailin.nightwire.de" -Subject ([Environment]::MachineName + " successfully deployed") -SmtpServer "smtp.ad.nightwire.de"
