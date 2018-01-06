@@ -1,4 +1,4 @@
-$localOS = New-Object System.String
+[string]$localOS = ""
 
 #Get OS Version
 switch($PSVersionTable.Platform){
@@ -12,3 +12,4 @@ switch($PSVersionTable.Platform){
 }
 
 #Ubuntu 16.04: Ubuntu16.04.3LTS
+Write-Host("Executing Nightwire OS Deployment on $localOS")
