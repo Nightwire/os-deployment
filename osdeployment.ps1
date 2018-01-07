@@ -1,3 +1,4 @@
+#/bin/sh -c "cd /opt/os-deployment;git reset --hard; git pull; chmod +x osdeployment.ps1; pwsh osdeployment.ps1"
 [string]$localOS = ""
 
 #Get OS Version
