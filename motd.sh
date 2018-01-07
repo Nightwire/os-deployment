@@ -1,6 +1,5 @@
 #!/bin/bash
 
-Colours
 red="\033[00;31m"
 RED="\033[01;31m"
 
